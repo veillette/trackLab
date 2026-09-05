@@ -1,22 +1,7 @@
 {
-  "hooks": {
-    "SessionStart": [
-      {
-        "hooks": [
-          {
-            "type": "command",
-            "command": "npm install"
-          }
-        ]
-      }
-    ]
-  },
   "extraKnownMarketplaces": {
     "openphysics": {
-      "source": {
-        "source": "github",
-        "repo": "OpenPhysics/Baton"
-      }
+      "source": { "source": "github", "repo": "OpenPhysics/Baton" }
     }
   },
   "enabledPlugins": {
